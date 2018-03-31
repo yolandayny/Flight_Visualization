@@ -1,0 +1,138 @@
+		/*CSS FOR CLASSES*/
+
+		body {
+			background-color: #2b3638;
+			color: white;
+			font: 300 112.5%/1.5em "Verdana", sans-serif;
+			margin: 3em 3em 6em;
+			padding: 0;
+			width: 1800px;
+		}
+
+		h1 {
+			font-size: 2em;
+			margin: 0.5em 0;
+		}
+
+		h2 { font-size: 1.5em; }
+
+		h3 { font-size: 1em; }
+
+		h1,h2,h3 {
+			text-align: center;
+			line-height: 2em;
+		}
+
+		p { margin: 1em 0; }
+
+		svg	{ margin: auto; }
+
+		text { fill: white; }
+
+		article {
+			margin: auto;
+			width: 30em;
+		}
+
+		figure {
+			margin: 3em auto;
+			width: 368px;
+			height: 152px;
+		}
+
+		canvas {
+			display: block;
+			margin: 20px auto;
+		}
+
+		pre {
+			font: 77.8%/1.5em "Lucida Sans Typewriter", "Lucida Console", "Monaco", "Bitstream Vera Sans Mono", monospace;
+			margin: 3.375em 1.6875em;
+		}
+
+		a, pre span.comment { color: royalblue; }
+
+		a:visited, pre span.constant { color: indianred; }
+
+		.arcs {
+			stroke-width: 5px;
+			fill: none;
+		}
+
+		.arcs:hover { stroke: green; }
+
+		.plane {
+			fill: #3F2725;
+			stroke: #3F2725;
+			stroke-width: 2px;
+		}
+
+		.legendTitle { 
+			font-size: 16px;
+			font-weight: bold; }
+
+		.label { font-size: 16px; }
+
+		.button { 
+			font-size: 15px;
+			font-weight: bold; }
+
+		/*CSS FOR IDS*/
+
+		#slider {
+			fill: black;
+			stroke: grey;
+		}
+
+		#map { 
+			float: left;
+			margin-left: -20px;
+    		padding-right: 80px; }
+
+		#flightSvg { background: #2b3638; }
+
+		.flightRoute {
+			display: block;
+			font-size: 12px;
+			color: white;
+		}
+
+		#date {
+			margin-bottom: 40px;
+		}
+
+		#informationDiv{
+			width: 30%;
+			height: 600px;
+			overflow-y: scroll;
+			display: inline-block;
+			margin-left: 10%;
+			overflow-x: hidden;
+			background-color: #2b3638;
+		}
+
+		#scatterTooltip {
+			position: absolute;
+			text-align: center;
+			width: 80px;
+			height: 42px;
+			padding: 2px;
+			font: 12px sans-serif;
+			background: #77a88b;
+			border: 0px;
+			border-radius: 1px;
+			pointer-events: none;
+		}
+
+		#date, #weather, #scatterplot {
+			clear:both;
+			display: block;
+		}
+
+		.xAxis path{
+			stroke: white;
+		}
+
+		.yAxis path{
+			stroke: white;
+		}
